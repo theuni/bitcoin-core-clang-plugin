@@ -11,6 +11,6 @@ set(CMAKE_CXX_EXTENSIONS False)
 add_compile_options(-fno-rtti)
 add_compile_options(-fno-exceptions)
 
-add_library(bitcoin-core-clang SHARED PropagateEarlyExit.cpp )
+add_library(bitcoin-core-clang SHARED CheckStringNewline.cpp )
 
 install(TARGETS bitcoin-core-clang LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
